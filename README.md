@@ -1,7 +1,7 @@
 
-## Library Management System
+# Library Management System
 
-Overview
+## Overview
 A console-based Library Management System (LMS) in Java 
 allowing librarians to perform operations like adding, 
 removing, updating, and searching for books, while also storing 
@@ -11,20 +11,26 @@ code.
 
 MVC (Model-View-Controller) is a software architectural pattern commonly used for developing user interfaces, especially in web applications.
 
- 1.Model: In Java, the Model represents the data and business logic of the application. It consists of Java classes that encapsulate data and define operations on that data. These classes often interact with a database or other data sources to fetch and manipulate data.
+## 1.Model
 
-2.View: The View is responsible for presenting the data to the user. In Java, the View typically consists of user interface components such as Swing or JavaFX elements. It displays the data retrieved from the Model and handles user interactions.
+ In Java, the Model represents the data and business logic of the application. It consists of Java classes that encapsulate data and define operations on that data. These classes often interact with a database or other data sources to fetch and manipulate data.
 
-3.Controller: The Controller acts as an intermediary between the Model and the View. It receives user input from the View, interacts with the Model to perform operations, and updates the View accordingly.
+## 2.View
 
-In this simple example:
+The View is responsible for presenting the data to the user. In Java, the View typically consists of user interface components such as Swing or JavaFX elements. It displays the data retrieved from the Model and handles user interactions.
+
+## 3.Controller
+ 
+The Controller acts as an intermediary between the Model and the View. It receives user input from the View, interacts with the Model to perform operations, and updates the View accordingly.
+
+## In this simple example:
 
 The User class represents the Model, encapsulating user data.
 The UserView class represents the View, displaying user details using Swing components.
 The UserController class represents the Controller, coordinating interactions between the Model and the View.
 
 
-➢ How to Create the Project
+## ➢ How to Create the Project
 Step 1: In Eclipse first to create a new Java project
 Step 2: After that in src folder to create a three packages
 - com.jsp.lms. controller
@@ -38,9 +44,7 @@ Step 3: Inside the model package create a two entities / classes
 -Library.java
 
 1.Book.java
-The Book class represents a book entity within the Library 
-Management System. It encapsulates information about a book, 
-including its name, author, and price.
+
 Attributes:
 • bookName: A string representing the name of the book.
 • bookAuthor: A string representing the author of the book.
