@@ -59,9 +59,6 @@ The `Library` class represents a library entity within the Library Management Sy
 - `getBooks()`: Retrieves the list of books available in the library.
 - `setBooks(List<Book> books)`: Sets the list of books available in the library.
 
-- `Controller.java`:
-  ## Class Descriptions
-
 ### Controller.java
 The `Controller` class serves as a controller component within the Library Management System, responsible for handling various operations related to books and the library.
 
