@@ -11,7 +11,7 @@ code.
 
 MVC (Model-View-Controller) is a software architectural pattern commonly used for developing user interfaces, especially in web applications.
 
-1.Model: In Java, the Model represents the data and business logic of the application. It consists of Java classes that encapsulate data and define operations on that data. These classes often interact with a database or other data sources to fetch and manipulate data.
+ 1.Model: In Java, the Model represents the data and business logic of the application. It consists of Java classes that encapsulate data and define operations on that data. These classes often interact with a database or other data sources to fetch and manipulate data.
 
 2.View: The View is responsible for presenting the data to the user. In Java, the View typically consists of user interface components such as Swing or JavaFX elements. It displays the data retrieved from the Model and handles user interactions.
 
