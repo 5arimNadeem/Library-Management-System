@@ -14,38 +14,8 @@ The project follows the Model-View-Controller (MVC) architecture:
 - `com.jsp.lms.controller`: Contains classes for controlling library operations.
 - `com.jsp.lms.model`: Contains classes representing entities like Book and Library.
 - `com.jsp.lms.view`: Contains classes for user interface components.
--  -### com ###: It is a reverse domain name
--### jsp :- Java Server Pages
-
+- 
 ## Class Descriptions
-- `Book.java`:
-  ## Class Descriptions
-
-### Book
-The `Book` class represents a book entity within the Library Management System. It encapsulates information about a book, including its name, author, and price.
-
-**Attributes:**
-- `bookName`: A string representing the name of the book.
-- `bookAuthor`: A string representing the author of the book.
-- `bookPrice`: A double representing the price of the book.
-
-**Access Modifier:** 
-`private`: It ensures that the `bookName`, `bookAuthor`, and `bookPrice` attributes cannot be accessed or modified directly from outside the `Book` class.
-
-**Getter and Setter Methods:**
-- `getBookName()`: Returns the name of the book.
-- `setBookName(String bookName)`: Sets the name of the book.
-- `getBookAuthor()`: Returns the author of the book.
-- `setBookAuthor(String bookAuthor)`: Sets the author of the book.
-- `getBookPrice()`: Returns the price of the book.
-- `setBookPrice(double bookPrice)`: Sets the price of the book.
-
-**toString() Method:**
-- Overrides the `toString()` method to provide a string representation of the `Book` object.
-- Returns a string containing the book's name, author, and price.
-
-- `Library.java`:
-  ## Class Descriptions
 
 ### Book.java
 The `Book` class represents a book entity within the Library Management System. It encapsulates information about a book, including its name, author, and price.
@@ -69,7 +39,6 @@ The `Book` class represents a book entity within the Library Management System. 
 **toString() Method:**
 - Overrides the `toString()` method to provide a string representation of the `Book` object.
 - Returns a string containing the book's name, author, and price.
-## Class Descriptions
 
 ### Library.java
 The `Library` class represents a library entity within the Library Management System. It encapsulates information about a library, including its name, address, pin code, and the list of books available.
@@ -128,9 +97,6 @@ The `Controller` class serves as a controller component within the Library Manag
 
 The Controller class provides methods to interact with the library and perform operations such as adding, updating, and removing books. It acts as an intermediary between the view (user interface) and the model (library and books), executing business logic and handling data manipulation tasks.
 
-- `View.java`:
-  ## Class Descriptions
-
 ### View.java
 
 The `View` class is responsible for providing the user interface in the Library Management System.
@@ -182,10 +148,6 @@ The `View` class is responsible for providing the user interface in the Library 
      ![Get Book](https://github.com/pwrpriya/Library-Management-System/assets/161859666/0157ec4b-0611-4835-a332-711db8542b47)
    - Option 0: Exit
      ![Exit](https://github.com/pwrpriya/Library-Management-System/assets/161859666/3e3f1788-af16-477a-b055-d7f4990d78ab)
-
-
-## Flow Chart
-Add a flow chart illustrating the architecture and flow of the Library Management System.
 
 ## Flow Chart of Library Management System Architecture
 
