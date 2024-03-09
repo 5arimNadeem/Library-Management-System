@@ -1,5 +1,5 @@
 
-Library Management System
+## Library Management System
 
 Overview
 A console-based Library Management System (LMS) in Java 
